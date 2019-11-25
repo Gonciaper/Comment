@@ -14,5 +14,5 @@
 
 # 2.关于评论组件的自定义化
 
-打开```comment\src\configs\config.js```文件，按照注释便可，快速上手自定义了。
+打开```comment\src\configs\config.js```文件，按照注释便可快速上手组件自定义了。
 
