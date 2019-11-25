@@ -1,0 +1,185 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+.comment-block{
+  /* margin: 0 auto; */
+  /* width: 70%; */
+}
+.comment-block-change{
+  /* margin: 0 auto; */
+  /* width: 70%; */
+  position: relative;
+}
+.input-comment{
+width: 620px;
+margin: 0 auto;
+}
+.input-comment-left{
+  width: 620px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0px;
+  }
+.input-comment-right{
+  width: 620px;
+  margin: 0 auto;
+  position: absolute;
+  right: 0px;
+  }
+.author{
+  margin-right: 5px;
+  width: 38px;
+  height: 38px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.input-comment img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.comment-text{
+  width: 620px;
+  margin: 0 auto;
+}
+.top-title {
+  padding-top: 30px;
+  /* width: 620px; */
+  width: 100%;
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  border-bottom: 1px solid #f0f0f0;
+}
+.top-title span {
+  vertical-align: middle;
+}
+.right {
+  float: right!important;
+}
+.right a {
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #969696;
+  display: inline-block;
+}
+.sub-comment-text{
+  width: 620px;
+  padding: 20px 0 30px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.author {
+  margin-bottom: 15px;
+}
+.name {
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+}
+.info {
+  width: 128.11px;
+  height: 41px;
+  margin-left:5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.author img{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.author-area{
+  /* width: 620px; */
+  width: 100%;
+  height: 41px;
+}
+.author-area div{
+  float: left;
+}
+.meta {
+  font-size: 12px;
+  color: #969696;
+}
+.new-comment {
+  position: relative;
+  /* margin-left: 48px; */
+}
+.new-comment .authar {
+  position: absolute;
+  left: -48px;
+}
+.new-comment textarea {
+  padding: 10px 15px;
+  width: 87%;
+  height: 80px;
+  font-size: 13px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background-color: hsla(0,0%,71%,.1);
+  resize: none;
+  display: inline-block;
+  vertical-align: top;
+  outline-style: none;
+}
+.submit-block{
+  width: 100%;
+  display: block;
+  height: 50px;
+}
+.submit-block a{
+  float:right;
+}
+
+.cancel{
+  margin: 18px 30px 0 0;
+  font-size: 16px;
+  color: #969696;
+  cursor: pointer;
+}
+.cancel:hover{
+  color: black;
+}
+.new-comment .btn-send {
+  margin: 10px 0;
+  padding: 8px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  color: #fff!important;
+  background-color: #42c02e;
+  cursor: pointer;
+  outline: none;
+  display: block;
+}
+.btn{
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  background-image: none;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.like-button span{
+  font-size: 14px;
+  color: #969696;
+  cursor: pointer;
+}
+.like-button:hover span{
+  color: black;
+}
