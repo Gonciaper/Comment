@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import {inputHei,inputWid,comCardHei,comCardWid,direct} from './configs/config';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(<App inputWid={inputWid} inputHei={inputHei} comCardWid={comCardHei} comCardWid={comCardWid} direct={direct}/>, document.getElementById('root'));
 
